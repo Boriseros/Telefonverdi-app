@@ -111,7 +111,7 @@ st.set_page_config(page_title="Verdifastsetting", page_icon="📱")
 st.title("📱Brukt Mobil/PC Verdifastsetting")
 
 #with st.form("verdi_form", clear_on_submit=False):
-st.header("Opplysninger")
+#st.header("Opplysninger")
 original_price_input = st.number_input("Originalpris (netto) fra faktura (kr)", min_value=0.0, step=100.0)
 egenandel = st.number_input("Egenandel (kr)", min_value=0.0, step=100.0, value=0.0)
 
